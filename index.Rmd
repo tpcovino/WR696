@@ -9,12 +9,6 @@ output:
     toc_depth: 3
 ---
 
-## Fully developed modules
-
-These modules contain video lectures, assignments, grading rubric and overall
-module goals. 
-
-## Git test
 
 ### Hydrograph Separation (Anna Bergstrom)
 
