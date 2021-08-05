@@ -1,7 +1,7 @@
 ---
 title: "Meteorological Measurements"
-author: "Tim Covino, Karin Emanuelson, Allison Rhea"
-date: "8/3/21"
+author: 
+date: 
 output: 
   html_document:
     toc: true
@@ -15,7 +15,7 @@ In this module, you will gain familiarity and experience in: (1) operating a wea
 
 ### Overall Learning Objectives: 
 
-At the end of this module, students should be able to accurately collect daily measurements and download data loggers from our weather station. They should also be able to download publically-available, historic data and critically compare multiple data sources. 
+At the end of this module, students should be able to accurately collect daily measurements and download data loggers from a weather station. They should also be able to download publically-available, historic data and critically compare multiple data sources. 
 
 ### Required Reading:
 
@@ -58,7 +58,7 @@ In addition to directly measuring precipitation and ET at our weather stations, 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0M7pIEhXrNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We also use HOBO water temperature sensors in the evaporation pond. *Relative humidity* (RH) is the ratio of partial pressure of water vapor to equilibrium vapor pressure of water at a given temperature (i.e. how much water is in the air relative to how much water could be in the air). We can take point measurements of RH with a sling psychrometer or we can get continuous RH measurements with a hygrothermograph chart recorder of Campbell cataloger. 
+We also use HOBO water temperature sensors in the evaporation pond. *Relative humidity* (RH) is the ratio of partial pressure of water vapor to equilibrium vapor pressure of water at a given temperature (i.e. how much water is in the air relative to how much water could be in the air). We can take point measurements of RH with a sling psychrometer or we can get continuous RH measurements with a hygrothermograph chart recorder or Campbell dataloger. 
 
 **Sling psychrometer:**
 
@@ -88,43 +88,42 @@ Now that you have an understanding of meteorological stations, work with your fi
 
 1.	You will be responsible for maintaining and collecting the data from the weather station for five consecutive days (Mon-Fri). 
 
-2.	Very Important – when you enter the weather station, please unlock shelter A and pull out the sanitization gear. Everyone should wear a face covering the entire time they are at the weather station, use hand sanitizer upon entry and exit (you can also wear disposable gloves), practice social distancing, and sanitize any equipment you touch with an alcohol wipe before the next pod member touches it.
 
-3.	There are two shelters (white boxes; A and B) with min and max thermometers, sling psychrometers, a hygrothermograph, sanitizer, and extra chart recorders. Two people from your group will be assigned to each shelter. You will share the other equipment (rain gauges, evaporation pan, Campbell automated weather station, atmometer). Again, please be sure to wipe anything you touch with alcohol wipes before the next person touches it. 
+2.	There are two shelters (white boxes; A and B) with min and max thermometers, sling psychrometers, a hygrothermograph, and extra chart recorders. Two people from your group will be assigned to each shelter. You will share the other equipment (rain gauges, evaporation pan, Campbell automated weather station, atmometer). Although the pandemic is starting to wane, please be sure to wipe anything you touch with alcohol wipes before the next person touches it. 
 
-4.	It is essential that your weather be performed at the same time every day (within reason). In general, observations are best made in the morning well after the early morning minimum temperature (e.g., at about 9 a.m.), or in the evening after the mid-day maximum temperature (e.g., between 6 and 7 pm). You should record qualitative observations about the weather, such as cloudiness, wind, rain, presence or absence of dew or frost, etc. These written field observations are remarkably helpful when checking and interpreting your data.  
+3.	It is essential that your weather be performed at the same time every day (within reason). In general, observations are best made in the morning well after the early morning minimum temperature (e.g., at about 9 a.m.), or in the evening after the mid-day maximum temperature (e.g., between 6 and 7 pm). You should record qualitative observations about the weather, such as cloudiness, wind, rain, presence or absence of dew or frost, etc. These written field observations are remarkably helpful when checking and interpreting your data.  
 
-5.	Please do not attempt to recalibrate any of the instruments.  If you have any problems or questions, please see us. 
+4.	Please do not attempt to recalibrate any of the instruments.  If you have any problems or questions, please see the instructor. 
 
-6.	Safety and security: Be respectful of the space. Leave everything better & cleaner than you found it and keep the keys to the weather shelters in their designated spot
+5.	Safety and security: Be respectful of the space. Leave everything better & cleaner than you found it and keep the keys to the weather shelters in their designated spot
 
 **On each day, you must:**
 
-7.	Read and record both the maximum and the minimum thermometers. The minimum thermometer is the upper of the two stationed thermometers and will have a black bar and orange liquid. The right edge of the orange liquid will give you the current temp and the right edge of the little black bar will give you the minimum daily temperature. Keep this tilted slightly so the left side is lower than the right. The maximum thermometer is the lower of the two and is full of silver mercury and the right edge of the silver mercury marks the daily maximum temperature. Once everyone in your pod has recorded the daily max and min temp, reset both thermometers. The maximum thermometer should be returned to the current temperature by slinging it downwards. **Do not** *shake the minimum thermometer, as a simple tilt to the right is sufficient to move the index back to the current temperature.* 
+6.	Read and record both the maximum and the minimum thermometers. The minimum thermometer is the upper of the two stationed thermometers and will have a black bar and orange liquid. The right edge of the orange liquid will give you the current temp and the right edge of the little black bar will give you the minimum daily temperature. Keep this tilted slightly so the left side is lower than the right. The maximum thermometer is the lower of the two and is full of silver mercury and the right edge of the silver mercury marks the daily maximum temperature. Once everyone in your group has recorded the daily max and min temp, reset both thermometers. The maximum thermometer should be returned to the current temperature by slinging it downwards. **Do not** *shake the minimum thermometer, as a simple tilt to the right is sufficient to move the index back to the current temperature.* 
 
-8.	Measure relative humidity using the sling psychrometer. You will moisten the fabric around the wet bulb with a spray bottle and sling the psychrometer from 1-2 minutes. Use the charts within each psychrometer case to determine the relative humidity. 
+7.	Measure relative humidity using the sling psychrometer. You will moisten the fabric around the wet bulb with a spray bottle and sling the psychrometer from 1-2 minutes. Use the charts within each psychrometer case to determine the relative humidity. 
 
-9.	Read, verify, and record the time, temperature, and relative humidity readings on the hygrothermograph. The upper half of the chart recorder represents the temperature and the lower half represents relative humidity. 
+8.	Read, verify, and record the time, temperature, and relative humidity readings on the hygrothermograph. The upper half of the chart recorder represents the temperature and the lower half represents relative humidity. 
 
-10.	Record the water level from the atmometer (remember to read the bottom of the meniscus and view the water level on a flat plane to avoid parallax), and calculate the daily ET (todays value minus yesterdays value). 
+9.	Record the water level from the atmometer (remember to read the bottom of the meniscus and view the water level on a flat plane to avoid parallax), and calculate the daily ET (todays value minus yesterdays value). 
 
-11.	Measure the water level in the evaporation pan using the hook gage, and calculate the daily evaporation (todays value minus yesterdays value).
+10.	Measure the water level in the evaporation pan using the hook gage, and calculate the daily evaporation (todays value minus yesterdays value).
 
-12.	Record the total wind run on the totalizing anemometer, and calculate the daily wind run (todays value minus yesterdays value).
+11.	Record the total wind run on the totalizing anemometer, and calculate the daily wind run (todays value minus yesterdays value).
 
-13.	Measure the rainfall in the standard rain gage using the ruler in the attached pvc tubing. Calculate the daily precipitation (todays value minus yesterdays value).
+12.	Measure the rainfall in the standard rain gage using the ruler in the attached pvc tubing. Calculate the daily precipitation (todays value minus yesterdays value).
 
-14.	Read and record current data from the Campbell CR10X handheld: temp, RH, wind speed, net radiation, and soil moisture.
+13.	Read and record current data from the Campbell CR10X handheld: temp, RH, wind speed, net radiation, and soil moisture.
 
-15.	Call the Fort Collins weather station at 970-491-6300. Listen to their recorded message and take note of the official daily minimum and maximum temperatures, precipitation (if any), evaporation, and any notes (i.e. any records they mention). You will compare this daily data from the Fort Collins weather station to the data you collect.  
+14.	Call the Fort Collins weather station at 970-491-6300. Listen to their recorded message and take note of the official daily minimum and maximum temperatures, precipitation (if any), evaporation, and any notes (i.e. any records they mention). You will compare this daily data from the Fort Collins weather station to the data you collect.  
 
 **At the end of your monitoring period:**
 
-16.	Download the data from the digital data loggers. You will collect continuous 10-min data from the Campbell CR10X (different that step 14 where you are taking 1 daily reading) and HOBO water temperature sensors and the tipping bucket rain gauge. *Detailed instructions for downloading from the electronic equipment are contained in the Appendix.* 
+15.	Download the data from the digital data loggers. You will collect continuous 10-min data from the Campbell CR10X (different than step 13 where you are taking 1 daily reading) and HOBO water temperature sensors and the tipping bucket rain gauge. *Detailed instructions for downloading from the electronic equipment are contained in the Appendix.* 
 
-17.	Remove your group’s chart from the hygrothermographs).The next group will load their own new charts. Be sure to take a picture and/or make a copy of your chart as it will need to be included in the write up. 
+16.	Remove your group’s chart from the hygrothermographs).The next group will load their own new charts. Be sure to take a picture and/or make a copy of your chart as it will need to be included in the write up. 
 
-18.	Return field laptop to instructor.
+17.	Return field laptop to instructor.
 
 **NOTES:**
 
@@ -134,9 +133,9 @@ Now that you have an understanding of meteorological stations, work with your fi
 
 # Assessment 
 
-### Calculations using pre-collected data: (30 pts)  
+### Calculations using pre-collected data: (40 pts)  
 
-We will give you R code that will download some historical data (31 years, 1988 – 2019) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.
+We will give you R code that will download some historical data (31 years, 1989 – 2020) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.
 
 **Note:** Documentation for the data is listed below.
 
@@ -165,7 +164,9 @@ SNWD - Snow depth
 
 \n
 
-Once you obtain data the first thing to do is simply plot the data and have a look. This is true whether the data have been downloaded from the Internet or from a data logger that you maintain. We will begin this exercise by exploring the data a bit and making time series figures of precipitation, max temp, min temp, etc. These initial plots are just for your own insight. They allow you to quickly see if there is something noticeably wrong or an overarching trend. 
+Once you obtain data the first thing to do is simply plot the data and have a look. This is true whether the data have been downloaded from the Internet or from a data logger that you maintain. We will begin this exercise by exploring the data a bit and making time series figures of precipitation, max temp, min temp, etc. These initial plots are just for your own insight. They allow you to quickly see if there is something noticeably wrong or an overarching trend.
+
+Next, let's begin to do some Mann-Kendall trend tests on the data. Mann-Kendall is a non-parametric test that is often used to assess climate trends (e.g., is the temperature increasing). Please explore your data and plot and apply MK tests. You can look at monthly or annual values. For simplicity let's begin with monthly (August) values of TMAX, TMIN and PRCP. Please evaluate if there are any significant trends in any of these variables and provide 1 figure for each. The figure will have time on the x-axis and TMAX, TMIN or PRCP on the y-axis. Please label all axes and include units where appropriate. (10 pts)
 
 Next we will begin to cull the data. You want to thin the data to only contain the dates of your monitoring period. So if you monitor from 9/20 – 9/24; you will have 30 years of data with only the values for those days. From these data you will determine the highest precipitation, highest max temp, mean max temp, lowest max temp, highest min temp, mean min temp, and lowest min temp for each of the days you will be monitoring and use these data to fill in Table 1 below.
 
@@ -175,7 +176,7 @@ Use a caption at the top of the table that includes the period of record, the st
 
 What condition were the data in when you received them? Was there any “cleaning” that you needed to do? What are your thoughts on cleaning the data – how do you justify this. (10pts).
 
-### Field Data Analysis and Synthesis Questions: Using your field-collected data (85 pts)
+### Field Data Analysis and Synthesis Questions: Using your field-collected data (90 pts)
 
 Use the data you collected in the field work section to answer the following questions
 
@@ -195,7 +196,7 @@ a.	Plot the relative humidity and air temperature from the continuous 10-min Cam
 
 b.	Make a table comparing the relative humidity values obtained from the sling psychrometers (A and B) with the simultaneous values obtained from the continuous 10-min Campbell CR10X relative humidity sensor and the hygrothermograph. (5 pts)  
 
-c.	Include a copy of your hygrothermograph chart. 
+c.	Include a copy of your hygrothermograph chart, a photo will suffice. 
 
 **3.	Precipitation (5 pts)**
 
@@ -219,15 +220,19 @@ a.	Make a table comparing the daily and the total evaporation over your monitori
 
 b.	Did the atmometer or evaporation pan give you higher estimates of evapotranspiration? What are some potential explanations? (5 pts)
 
-c.	Did you see any relationships between air temperature, net radiation, wind, or relative humidity and evapotranspiration throughout your observation period? (10 pts)
+c.	Discuss any observed relationships between air temperature, net radiation, wind, relative humidity and evapotranspiration throughout your observation period. (10 pts)
 
 **7.	Soil Moisture (5 pts)**
 
-a.	Plot the soil moisture and air temperature from the continuous 10-min Campbell CR10X weather station on the same graph. (5 pts)
+a.	Plot the soil moisture and air temperature from the continuous 10-min Campbell CR10X weather station on the same graph. 
 
-**8.	Reflection (5 pts)**
+b.  Hypothesize on any relationships you see in this figure. (5 pts)
 
-a.	Comment on what you would do the same and what you would do differently in your next monitoring period. You should have at least 3 items. (5 pts)
+**8.	Reflection (10 pts)**
+
+a.	Comment on what you would do the same and what you would do differently in your next monitoring period. What do you feel is most important to collecting quality data? (5 pts)
+
+b.  If you were a weather recorder at the Fort Collins weather station for 10 years but you were now moving on to a different job; how would you ensure long-term (e.g., 30-year) data fidelity given that a new person will now be collecting the data. Remember that weather varies day to day, but climate normals are based on 30-years of data. (5 pts)
 
 # Appendix
 
