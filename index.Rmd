@@ -11,7 +11,47 @@ output:
 
 # Hydrology labs and assignments
 
-### Hydrograph Separation (Anna Bergstrom)
+### Meteorological Measurements 
+
+  - [Meteorological Measurements lecture and text](hydrology/5_met_lab/5_met_lab.html)
+  
+### Hydrographs & Rating Curves 
+
+  - [Hydrographs & Rating Curves lecture and text](hydrology/7_rating_curve/7_rating_curve.html)
+
+
+### Velocity Area 
+  
+  - [Velocity Area lecture and text](hydrology/2_velocity_area_module/2_velocity_area_module.html)
+  
+  - Rubric [here](hydrology/2_velocity_area_module/2_velocity_area_module_files/velocity_area_rubric.pdf)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0)
+  
+### Fluvial Geomorphology 
+
+  - [Fluvial Geomorphology lecture and text](hydrology/6_geomorph/6_geomorph.html)
+  
+  - Rubric [here](hydrology/6_geomorph/6_geomorph_files/geomorph_rubric.pdf)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0)
+  
+###  Stream Health 
+
+  - [Stream Health lecture and text](hydrology/4_stream_health/4_stream_health.html)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0)
+
+### Dilution Gauging 
+
+  - [Dilution Gauging lecture and text](hydrology/3_dilution_gauging/3_dilution_gauging.html)
+  
+  - Rubric [here](hydrology/3_dilution_gauging/3_dilution_gauging_files/dilution_gauging_rubric.pdf)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0)
+  
+
+### Hydrograph Separation 
 
   - [Baseflow and Stormflow lecture and text](hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html)
 
@@ -21,43 +61,6 @@ output:
   
   - Interactive web app on mountaintop mining impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
   
-### Velocity Area (Covino lab)
-  
-  - [Velocity Area lecture and text](hydrology/2_velocity_area_module/2_velocity_area_module.html)
-  
-  - Rubric [here](hydrology/2_velocity_area_module/2_velocity_area_module_files/velocity_area_rubric.pdf)
-  
-  - Analysis assessment [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0)
-  
-### Dilution Gauging (Covino lab)
-
-  - [Dilution Gauging lecture and text](hydrology/3_dilution_gauging/3_dilution_gauging.html)
-  
-  - Rubric [here](hydrology/3_dilution_gauging/3_dilution_gauging_files/dilution_gauging_rubric.pdf)
-  
-  - Analysis assessment [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0)
-  
-###  Stream Health (Covino lab)
-
-  - [Stream Health lecture and text](hydrology/4_stream_health/4_stream_health.html)
-  
-  - Analysis assessment [here](https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0)
-
-### Meteorological Measurements (Covino lab)
-
-  - [Meteorological Measurements lecture and text](hydrology/5_met_lab/5_met_lab.html)
-
-### Fluvial Geomorphology (Covino lab)
-
-  - [Fluvial Geomorphology lecture and text](hydrology/6_geomorph/6_geomorph.html)
-  
-  - Rubric [here](hydrology/6_geomorph/6_geomorph_files/geomorph_rubric.pdf)
-  
-  - Analysis assessment [here](https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0)
-  
-### Hydrographs & Rating Curves (Covino lab)
-
-  - [Hydrographs & Rating Curves lecture and text](hydrology/7_rating_curve/7_rating_curve.html)
 
 
 ## Stand alone shiny apps
@@ -88,29 +91,3 @@ be easily included into class exercises or homeworks.
 
 - [Working with the WQP](https://cuahsi.shinyapps.io/Public_WQ_Data/)
 
-
-# Acknowledgements 
-
-This work is a collaborative effort across many groups and is funded by an 
-[NSF RAPID #2028737](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2028737&HistoricalAwards=false). We hope to keep expanding and are eager for community contributions through
-GitHub or directly contacting team members. 
-
-The main contributors to the page so far are: 
-
-- [Tim Covino and his lab](https://covinocsuwatershed.weebly.com/people.html), specifically Karin Emanuelson and Allie Rhea
-
-- [Anna Bergstrom](https://anna-bergstrom.weebly.com/), soon to be Asst. Prof at Boise State
-
-- Bryce Pulver, graduate student in Stephanie Kampf's lab
-
-- [Matt Ross](https://matthewrvross.com/)
-
-# Contribute? 
-
-Want to contribute? You can either directly fork our [GitHub repo](https://github.com/OpenEcoDataLab/Hydrology-Online) and add your
-own content with a pull request. 
-
-OR! 
-
-You can contact us and we can translate your course notes, rubric, and assignment
-into a web version to be hosted here, ideally with YouTube lectures already recorded! 
