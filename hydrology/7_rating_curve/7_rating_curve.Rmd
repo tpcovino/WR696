@@ -1,7 +1,7 @@
 ---
 title: "Hydrographs & Rating Curves"
-author: "Tim Covino, Karin Emanuelson, Allison Rhea"
-date: "9/17/2020"
+author: 
+date: 
 output: 
   html_document:
     toc: true
@@ -27,11 +27,11 @@ A hydrograph is a time series of stream discharge at a specific point in a river
 
 ![](images/figure_2.jpg)
 
-This stage-discharge relationship depends on the hydraulic characteristics of the stream channel. Therefore, if the channel geometry changes as a result of erosion or deposition, the rating curve needs to be updated. Because of this, it is best practice to take stage measurements at a control structure (i.e. weirs and flumes) or stable cross section (i.e. at bridges or where bedrock is confining the channel). Additionally, it is important not to extrapolate the stage-discharge relationship for data larger or smaller than discharges measured in the field that were used to create your rating curve. The stage-discharge relationship could break down at these high flows and lead you to inaccurately predict discharge from stage.
+This stage-discharge relationship depends on the hydraulic characteristics of the stream channel. Therefore, if the channel geometry changes as a result of erosion or deposition, the rating curve needs to be updated. Because of this, it is best practice to take stage measurements at a control structure (i.e. weirs and flumes) or stable cross section (i.e. at bridges or where bedrock is confining the channel). Additionally, it is important not to extrapolate the stage-discharge relationship for data larger or smaller than discharges measured in the field that were used to create your rating curve. The stage-discharge relationship could break down at these high or low flows and lead you to inaccurately predict discharge from stage.
 
 ## 1.2: Rain versus Snow dominated systems
 
-The shape of the hydrograph can tell you a lot about the system that you are working in. The most common conclusion that can be drawn from a hydrograph is whether a system is snow or rain dominated. Typically hydrologists prefer to conduct analyses based on the water year (October 1 - September 30) as opposed to the calendar year. This allows the comparison of incoming precipitation and outgoing streamflow, and specifically ensures that snow delivered in October- December is accounted for in the same time period that it is likely to melt, which may be in spring or summer of the following calendar year.
+The shape of the hydrograph can tell you a lot about the system that you are working in. The most common conclusion that can be drawn from a hydrograph is whether a system is snow or rain dominated and what hemisphere the stream is located. Snowmelt dominated streams in the northern hemisphere have peak flows in April or May, whereas snowmelt dominated systems in the southern hemisphere will typically have peak flows around October. In the northern hemisphere and indeed in the US, hydrologists prefer to conduct analyses based on the water year (October 1 - September 30) as opposed to the calendar year. This allows the comparison of incoming precipitation and outgoing streamflow, and specifically ensures that snow delivered in October- December is accounted for in the same time period that it is likely to melt, which may be in spring or summer of the following calendar year.
 
 A snow dominated hydrograph (Figure 3) typically has a prominent peak in discharge during the spring and summer months driven by snowmelt as temperatures warm. Alternatively, a rain dominated hydrograph is characterized by high magnitude, short duration increases in flow due to specific rain events (Figure 4). These temporal patterns of high and low flows are referred to collectively as a river’s flow regime. The flow regime plays a key role in regulating geomorphic processes that shape river channels and floodplains, ecological processes that govern the life history of aquatic organisms, and is a major determinant of the biodiversity found in river ecosystems.
 
@@ -45,17 +45,17 @@ Stage, or water depth, measurements can be continuously collected with either an
 
 **USGS Gaging Station Video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BaSgOHYhj_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BaSgOHYhj_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 **Montana DNRC Video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bxHagMo6nm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bxHagMo6nm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ## 1.4: Applications of streamflow and stream gage 
 
 Stage and streamflow is important for a variety of applications. Check out this USGS video describing applications of how the data collected at USGS stream gaging sites is used:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9H-0A3nJabM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9H-0A3nJabM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 # Assessment: (20 pts)
 
@@ -80,7 +80,7 @@ g.	Reflect: What are the differences between your two plots? What is the primary
 
 **Activity Video:** 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/In-J9mHh6rU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/In-J9mHh6rU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 
 ## Data Analysis Activity: Calculations using pre-collected USGS data. (10 pts)
