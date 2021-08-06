@@ -24,7 +24,7 @@ At the end of this module, students should be able to accurately use the velocit
 
 # Lecture
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hgPoorCAAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hgPoorCAAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ## 1.1: Variability in stream velocity
 
@@ -48,7 +48,7 @@ To determine stream discharge we typically measure velocity using a current mete
 
 see supplemental video here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YUzyt8I-Svs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YUzyt8I-Svs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 For example, when the stream is 2.5 feet (76.2 cm) deep or shallower, we can use the six-tenths depth method as this has been empirically determined to be a good representation of average velocity along a vertical profile in streams that are less than 2.5 feet deep. In deeper rivers we need to take two velocity measurements: one at two-tenths and one at eight-tenths depth and then average these two values in order to get a representative value for average velocity along the vertical profile. Accordingly, when the stream is less than 2.5 feet deep you will use the six-tenths depth method; and when it is deeper than 2.5 feet you will use the 0.2 and 0.8 method. As a note, six-tenths depth is four-tenths up from the bottom (see Figure 3). 
 
@@ -64,7 +64,7 @@ First, we locate a cross-section with convergent flow, few obstructions or eddie
 
 see supplemental video here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kx9LJQ3JuLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kx9LJQ3JuLA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"> data-external="1"</iframe> 
 
 # Field work
 
