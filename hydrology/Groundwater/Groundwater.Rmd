@@ -9,7 +9,7 @@ output: html_document
 
 # Gateway Natural Area - Poudre River 
 Stream-Groundwater Measurements Lab
-Link: 
+Link: https://tpcovino.github.io/WR696/hydrology/Groundwater/Groundwater.html
 
 In this lab, you will gain familiarity and experience in: (1) creating sketch maps; (2) measuring groundwater (GW) levels and stream stage; (3) creating GW contour maps, determining the direction of GW flow, using Darcy’s Law, and assessing whether the stream reach is gaining or losing; (4) measuring streamflow; (5) quantifying channel water balance; and (6) integrating, analyzing, and presenting data. When collecting and reviewing your data, think about the quality of the data in terms of its accuracy, precision, completeness, representativeness, and comparability. In your lab write-up you will be asked about the quality and usefulness of your data.
 
