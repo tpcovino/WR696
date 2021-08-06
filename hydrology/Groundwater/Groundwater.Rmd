@@ -42,6 +42,11 @@ In general tracer tests work in this way. We inject a known amount of tracer at 
 
 Geochemical methods: With geochemical methods we use the differences in geochemistry to determine stream-GW interaction. GW tends to have much higher concentrations of geochemical constituents such as Ca, Mg, and Si relative to stream water. We can use these different geochemical “signatures” to evaluate stream-GW mixing, quantify GW contributions to streamflow, and determine locations of GW inflow to the channel network. Why would GW have higher concentrations of things like Ca, Mg, and Si relative to stream water? What prediction might you make in terms of specific conductivity?  
 
+## Assessment 
+Complete the following assignment to prepare for using real-world groundwater data.
+
+  + [Groundwater assessment](https://www.dropbox.com/s/macj8x8ufxyxo9k/Groundwater.docx?dl=0)
+
 ## Specific tasks – to be completed in the field:
 
 - Create a sketch map of the area 
