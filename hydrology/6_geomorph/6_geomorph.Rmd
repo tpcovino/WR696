@@ -19,7 +19,7 @@ At the end of this module, students will understand the key principles of fluvia
 
 # Lecture
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EvMyerRQ0So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EvMyerRQ0So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ### 1.1: Stream Cross Section and Gradient
 
@@ -27,7 +27,7 @@ At the end of this module, students will understand the key principles of fluvia
 
 **Field Cross Section Methods:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H0mDawx9zpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H0mDawx9zpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 A stream system is not defined by only the main, active channel but also how that channel interacts with the surrounding landscape. Because of this, we also take note of the bankfull location and the flood-prone area when assessing a stream cross section. The bankfull location is the water level at which the stream begins to spill out of the main channel into the active floodplain. Bankfull flow has a recurrence interval of ~1.5 years, although this varies and is debated. Bankfull flows tend to move most of the sediment over time and are largely responsible for shaping the stream channel. Bankfull locations can be visually observed in streams where there are changes in slope, vegetation and particle size. The flood prone area is defined by the width at two times the maximum bankfull depth. Frequency analysis of historic data suggests that the floodprone area is inundated at a 50 year recurrence interval. 
 
@@ -35,7 +35,7 @@ Stream gradient is another important control on channel morphology. The gradient
 
 **See supplemental video here:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LtASpnD6KPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LtASpnD6KPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 Overall, the observer with the clinometer first determines the point on the stadia rod that reads 0 slope while the stadia rod is held nearby with the bottom set on the channel bed. Then their teammate measures 10 meters downstream and holds the stadia rod against the channel bed. The observer, who has remained in the same location, looks at the zero point on the stadia rod with one eye and records the slope reading on the clinometer. Generally, 10 meters is about the limit of how far people can accurately read the stadia rod, so in order to get slopes along 100 m of stream reach the team would simply repeat this process 10 times. 
 
@@ -45,7 +45,7 @@ To get the water level gradient, follow the same procedure but hold the stadia r
 
 **Field Wolman Pebble Count Method:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0sEM8p8lucs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0sEM8p8lucs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 The grain size distribution of a streambed and banks influences the channel form and hydraulics, erosion rates, sediment supply, and other parameters. For example, steep mountain streams with boulders and cobbles are different than low-gradient streams with beds of sand or silt. Land management activities can shift sediment delivery or change streamflow which can lead to cumulative impacts to the aquatic ecosystem. Whether aggradation (i.e. accumulation of sediment) or degradation (i.e. removal of sediment) occurs with this shift is a function of the balance between stream power and sediment supply as defined by Lane’s Balance. Lane’s balance diagram (Figure 4) demonstrates how the channel may respond to a change in various parameters, such as sediment load, channel geometry, channel slope, erosional resistance, and discharges (hydrologic load). For example, by increasing the amount of sediment load the left side of the balance will lower and the scale will tip toward aggradation (sediment deposition); to bring the scale back in balance a change in either the channel geometry, slope and/or hydrologic load would be needed. 
 
@@ -66,7 +66,7 @@ Manning’s roughness coefficient (n) is commonly determined in the field by the
 
 **See supplemental video here:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tOk4H15WYUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tOk4H15WYUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 \n
 
 See supplemental reading [here](https://www.dropbox.com/s/z9j4isaf8smr9du/Milhous_paper.pdf?dl=0):
@@ -92,7 +92,7 @@ River scientists often use this framework to classify complex natural river syst
 
 **Sinuousity video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8a3r-cG8Wic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8a3r-cG8Wic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ![](images/fig_3.jpg)
 
