@@ -1,7 +1,7 @@
 ---
 title: "Dilution Gauging"
-author: "Tim Covino, Karin Emanuelson, Allison Rhea"
-date: "8/21/2020"
+author: 
+date: 
 output: 
   html_document:
     toc: true

@@ -2,12 +2,16 @@
 title: "Groundwater"
 author: 
 date: 
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
 
 
 
-# Gateway Natural Area - Poudre River 
+# Gateway Natural Area - Poudre River (105 pts)
 Stream-Groundwater Measurements Lab
 Link: https://tpcovino.github.io/WR696/hydrology/Groundwater/Groundwater.html
 
@@ -42,20 +46,19 @@ In general tracer tests work in this way. We inject a known amount of tracer at 
 
 Geochemical methods: With geochemical methods we use the differences in geochemistry to determine stream-GW interaction. GW tends to have much higher concentrations of geochemical constituents such as Ca, Mg, and Si relative to stream water. We can use these different geochemical “signatures” to evaluate stream-GW mixing, quantify GW contributions to streamflow, and determine locations of GW inflow to the channel network. Why would GW have higher concentrations of things like Ca, Mg, and Si relative to stream water? What prediction might you make in terms of specific conductivity?  
 
-## Assessment 
+# Assessment 
 Complete the following assignment to prepare for using real-world groundwater data.
 
-  + [Groundwater assessment](https://www.dropbox.com/s/macj8x8ufxyxo9k/Groundwater.docx?dl=0)
+  + [Groundwater assessment, 40 pts](https://www.dropbox.com/s/me8sfvzkox60v52/GW_v2.docx?dl=0)
 
 ## Specific tasks – to be completed in the field:
 
 - Create a sketch map of the area 
 - Measure depth to water in each of the GW wells (see the attached map for well locations)
-- Measure temperature, specific conductivity, salinity, and total dissolved solids in each of the wells
-- Please note that the YSI will provide conductivity in both compensated and non-compensated formats. You want compensated. Conductivity that is compensated for standard temperature (25 C) is called specific conductance or specific conductivity and is abbreviate SC. SC is typically in units of microsiemens per centimeter (S/cm) or milisiemens per centimeter (mS/cm) 
+- Measure temperature and specific conductivity in each of the wells and at both gauging locations (up and downstream in the river)
+- Please note that the conductivity sensor will provide conductivity in both compensated and non-compensated formats. You want compensated. Conductivity that is compensated for standard temperature (25 C) is called specific conductance or specific conductivity and is abbreviate SC. SC is typically in units of microsiemens per centimeter (S/cm) or milisiemens per centimeter (mS/cm) 
 - Measure stage at the staff gauges 
-- Measure temperature, conductivity, salinity, and total dissolved solids in the river
-- With your group measure streamflow at the up and downstream endpoints of the river segment.
+- With your group measure streamflow at the up and downstream endpoints of the river segment
 - Please remember to take pictures and good notes (metadata)!
 - Video on measuring water level in the field:
 
@@ -63,7 +66,7 @@ Complete the following assignment to prepare for using real-world groundwater da
 
 
 
-## Write up:
+# Write up (45 pts):
 - Introduction: Provide a brief description (less than 1 page) of what you did (20 pts)
 - Provide a sketch map of the area (10 pts)
 - Create a water surface contour map for the area and indicate the direction(s) of water flow and determine whether the stream is gaining, losing, or both (15 pts)
@@ -79,12 +82,12 @@ These maps may also be useful, or you can use google maps
 
 
 
-## Interpretation
+# Interpretation (20 pts)
 Comment on any differences between your determination of gaining/losing based on well and streamflow data. Do your data suggest the river is solely gaining or losing or both? If both explain how this can be. Discuss how you can use combined methods to constrain problems such as quantifying stream-GW exchange. What does each tell you, what are the benefits/drawbacks of each? (20 pts) 
 
 <br> 
 
-## Additional groundwater lecture/videos
+# Additional groundwater lecture/videos
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a1BWyMz3XiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" data-external="1"></iframe>
 
@@ -107,6 +110,12 @@ And how we can use data from wells to develop contour lines and determine the di
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-T_TR6CvfYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 
-## Refernces
+# Supplemental reading on quantifying stream-GW exchange using hydrometric and geochemical tracers
+
+  + [Covino and McGlynn, 2007](https://www.dropbox.com/s/waggp9l4dt2wepe/Covino%20and%20McGlynn%202007%20stream%20gains%20loss.pdf?dl=0)
+
+<br>
+
+# Refernces
 Poole, G. C., S. J. O'Daniel, K. L. Jones, W. W. Woessner, E. S. Bernhardt, A. M. Helton, J. A. Stanford, B. R. Boer, and T. J. Beechie. 2008. Hydrologic spiralling: The role of multiple interactive flow paths in stream ecosystems. River Research and Applications 24:1018-1031.
 

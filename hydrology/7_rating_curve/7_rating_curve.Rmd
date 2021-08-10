@@ -9,6 +9,8 @@ output:
     toc_float: true
 ---
 
+Link: https://tpcovino.github.io/WR696/hydrology/7_rating_curve/7_rating_curve.html
+
 # Summary
 
 A stream’s volumetric flow rate, hereafter referred to as discharge, is a parameter of interest for scientists and practitioners in various areas of hydrology. However, producing a continuous record of discharge (i.e. hydrograph) involves obtaining a continuous record of stage (i.e. water depth), making discharge measurements over a range of stages, establishing and maintaining a relation between the stage and discharge, and applying the stage-discharge relation to the stage record.  A hydrograph can provide insight into the primary drivers of flow (i.e. rain vs snow) and can be tracked to ensure users have access to their water rights as well as be used in flooding risk assessments. 
