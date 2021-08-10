@@ -51,6 +51,8 @@ The qualitative habitat assessment is derived from standard EPA methods for habi
 
 Now that you have an understanding of macroinvertebrate sampling, work with your field team to take measurements at your local field site. Note: you will collect your field data together with your group members, but each person will submit their own responses to the **Assessment** and **Field Data Analysis and Synthesis Questions** sections.
 
+Also we will do this assessment twice. Once at Young's Gulch and once on a stream effected by the recent Cameron Peak fire. You will then compare the health of both streams as evaluated below. 
+
 **Materials:**
 
 1. Kicknet
@@ -83,8 +85,7 @@ Now that you have an understanding of macroinvertebrate sampling, work with your
 
 6.	Use a plastic spoon, tweezers, or a paintbrush to move macroinvertebrates from the white tub to the ice cube tray. Try to place macroinvertebrates that look alike in the same compartment. This will help you with both identification and counting. 
 
-7.	Use the key to identify macroinvertebrates. On the worksheet, circle the animals that match those found in 
-your sample. You do not need to count the number of individual animals in your sample. Rather you will count the number of animals within each sensitivity group (i.e. sensitive, semi-sensitive, semi-tolerant, and tolerant) on the associated worksheet. For example, if you found a bunch of stonefly larva and 1 alderfly larva in your sample, your number of group 1 animals circled would only be 2 because you found 2 different sensitive species – the stonefly and alderfly larva. 
+7.	Use the key to identify macroinvertebrates. On the worksheet, circle the animals that match those found in your sample. You do not need to count the number of individual animals in your sample. Rather you will count the number of animals within each sensitivity group (i.e. sensitive, semi-sensitive, semi-tolerant, and tolerant) on the associated worksheet. For example, if you found a bunch of stonefly larva and 1 alderfly larva in your sample, your number of group 1 animals circled would only be 2 because you found 2 different sensitive species – the stonefly and alderfly larva. 
 
 ### 2.2: Qualitative stream habitat assessment
 
@@ -104,9 +105,9 @@ your sample. You do not need to count the number of individual animals in your s
 
 2.	Calculate the stream health score from this example field data. (5 pts)
 
-# Field Data Analysis and Synthesis Questions: Using your field-collected data (40 pts)
+# Field Data Analysis and Synthesis Questions: Using your field-collected data (45 pts)
 
-Use the data you collected in the field work section to answer the following questions
+Use the data you collected in the field work section to answer the following questions for both streams (Young's Gulch and Cameron Peak fire stream)
 
 **1.	Macroinvertebrate Data**
 
@@ -130,17 +131,19 @@ b.	Calculate the overall stream health score and interpret the results: poor < 2
     
 **3. Comparing biotic and physical assessments (40 pts)**
 
-a. Include a copy of your field sketch (5 pts)
+a. Include a copy of your field sketches (5 pts)
     
 b. Generate the table below with the following information. Interpretation refers to excellent, good, poor, etc health (5 pts)
 
 ![](images/table_1.jpg)
     
-c. How do your 2 stream health assessments, biotic and physical, compare to one another? What might account for any differences? (5 pts)
+c. How do your 2 stream health assessments, biotic and physical, compare to one another within each stream? What might account for any differences? (5 pts)
     
 d. What are potential sources of contamination or habitat degradation in this area? (5 pts)
     
 e. What do you see as a benefit of rapid/qualitative assessment? What negatives do you see in this type of approach? (10 pts)
     
 f. Describe two stream environments – one healthy and one unhealthy – using the macroinvertebrate and stream habitat worksheets as a guide. It would be helpful to frame the unhealthy stream system through the lens of a certain disturbance such as agriculture, deforestation, fire, etc. (10 pts)
+
+g. Compare your stream health data from Young's Gulch with the stream health from the Cameron Peak fire. We're there differences between the biotic index and qualitative assesements between the two streams? (5 pts)
     
