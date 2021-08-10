@@ -1,7 +1,7 @@
 ---
 title: "Fluvial Geomorphology"
-author: "Tim Covino, Karin Emanuelson, Allison Rhea"
-date: "8/24/2020"
+author: 
+date: 
 output: 
   html_document:
     toc: true
@@ -213,7 +213,7 @@ b.	On the particle size plot, give the size of the D16, D50, and D84 particles t
 **3.	Manning’s Equation: calculate the following and include in the table outlined below (10 pts)**
 
 
-a.	a.	Using the cross-section data that you collected and the roughness coefficient (n) you derived from the Cowan method, apply Manning’s Equation to estimate the following and include results in the table outlined below.
+a.	Using the cross-section data that you collected and the roughness coefficient (n) you derived from the Cowan method, apply Manning’s Equation to estimate the following and include results in the table outlined below.
 
     i.	Q using the depth at the thalweg and channel area 
     ii.	Q at bankfull stage 
