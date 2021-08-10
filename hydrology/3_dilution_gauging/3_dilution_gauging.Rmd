@@ -24,7 +24,7 @@ At the end of this module, students will be able to accurately collect field dat
 
 ### Lecture video: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LP-xBgymsEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LP-xBgymsEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ### 1.1: Conservative tracers
 
@@ -37,17 +37,17 @@ With dilution gauging, it is important that the stream reach is turbulent enough
 
 see supplemental video here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TRfGsxh3_-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TRfGsxh3_-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 Add a small amount of Rhodamine to the upstream injection location, observe how the tracer, at first, is darkest in the center of flow (or thalweg) then mixes throughout the stream as advection, dispersion and turbulent mixing occurs in the reach. Choose a monitoring location where the stream appears the same color throughout and set up your conductivity probe mid-depth in the thalweg of the channel. If using a Campbell conductivity sensor refer to these videos:
 
 **for the field deployment instructions**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2SSo5F7EsMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2SSo5F7EsMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 **for the computer deployment instructions**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PJ5N_siWM8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PJ5N_siWM8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ### 1.3: Dilution gauging
 
@@ -55,7 +55,7 @@ Dilution gauging involves dissolving a known mass, TMA, of salt into a volume of
 
 see supplemental video here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m5TmNtsT9b4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m5TmNtsT9b4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 As the salt slug moves downstream, it disperses and travels as a function of stream hydrodynamics. Because solutions with dissolved salts conduct electricity, we can use electrical conductivity sensors to monitor their transport. At a downstream observation point, the concentration of the salt through time can be observed with a conductivity sensor and plotted (called a breakthrough curve, Figure 1). 
 
@@ -169,7 +169,7 @@ The logger will ask if you really want to do this – because when you send the 
 
 10.	Disconnect from the device by selecting **Disconnect** (the chain icon) on the Main Screen before disconnecting the USB.
 
-# Assessment
+# Assessment (20 pts)
 
 Calculations using pre-collected data provided [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0){target="_blank"}: 
 
