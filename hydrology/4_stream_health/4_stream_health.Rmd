@@ -1,7 +1,7 @@
 ---
 title: "Stream Health"
-author: "Tim Covino, Karin Emanuelson, Allison Rhea"
-date: "8/24/2020"
+author: 
+date: 
 output: 
   html_document:
     toc: true
@@ -19,7 +19,7 @@ At the end of this module, students will be able to accurately sample and identi
 
 # Lecture
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OgL-O7XwYus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OgL-O7XwYus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ### 1.1: Aquatic macroinvertebrates as indicators of water quality
 
@@ -27,17 +27,17 @@ Aquatic macroinvertebrates are small animals without backbones (i.e., invertebra
 
 see supplemental video here: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_LrujuekFI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LrujuekFI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 In the field, we will use kick net sampling techniques to collect and identify macroinvertebrate species.
 
 **Kick-Net Method**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RqY2Oh4ggLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RqY2Oh4ggLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 **Identify your Benthic Macroinvertebrate Sample**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TGnhN7t9PX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TGnhN7t9PX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 We can use this field data to calculate the biotic index, a semi-quantitative measure of stream health. While this metric is good at indicating problem areas, it does not provide information on the source of the problem (i.e. fertilizers, sewage, sediment, etc). Therefore, it is helpful to pair this with additional monitoring approaches.
 
@@ -90,13 +90,13 @@ your sample. You do not need to count the number of individual animals in your s
 
 1.	Draw a field sketch of your stream reach. Be sure to take note of riparian buffers, dominant vegetation types, bank erosion, fish refuge, riffles, pools, etc. 
 
-2.	In a standard assessment, you would measure out a stream length that is 40 times the wetted width and divide it into 10 segments. Then you would do the physical assessment at each of the 10 segments. For this lab, you will only do assessments at THREE cross sections.
+2.	Measure out a stream length that is 40 times the wetted width and divide it into 10 segments. Then do the physical assessment in #3 at each of the 10 segments. 
 
 3.	At each transect evaluate: riparian buffer, bank erosion, pool area, width/depth ratio, % fine sediments, and fish cover according to the associated worksheet. Select the rating that appears most commonly in each category.
 
-4.	Be sure to record site metadata include station name and location, collection date and time, stream width, stream length (≥35*length), water level, water clarity, and channel condition
+4.	Be sure to record site metadata include station name and location, collection date and time, stream width, stream length, water level, water clarity, and channel condition
 
-# Assessment
+# Assessment (10 pts)
 
 ### Activity using pre-collected data provided [here](https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0){target="_blank"}: (10 pts)
 
@@ -104,7 +104,7 @@ your sample. You do not need to count the number of individual animals in your s
 
 2.	Calculate the stream health score from this example field data. (5 pts)
 
-### Field Data Analysis and Synthesis Questions: Using your field-collected data (40 pts)
+# Field Data Analysis and Synthesis Questions: Using your field-collected data (40 pts)
 
 Use the data you collected in the field work section to answer the following questions
 
