@@ -1,0 +1,27 @@
+---
+title: "Udall"
+author: 
+date: 
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+Udall Natural Area
+
+Background: “Udall Natural Area is co-owned and co-managed with Fort Collins Utilities for water quality, flood control and wildlife habitat. The water from downtown and nearby neighborhood storm drains flows into a series of ponds before entering the Poudre River. The settling ponds and wetlands filter the water but they aren’t a water treatment plant. Please don’t pour oil, chemicals or even soapy water from washing cars into storm drains- they drain into the river and impact the entire aquatic system from bugs to birds to animals.”
+
+Source: http://www.fcgov.com/naturalareas/finder/udall
+
+Specific tasks:
+
+- Provide a sketch map of the area. Please see [here](https://www.dropbox.com/s/9n2dfcsrttbatcr/Sketch%20map%20example.pdf?dl=0) for an example of a well-crafted sketch map (10 pts).
+
+
+- Provide a brief (1/2 page) summary of the Udall Natural Area, the network of sensors, and goals. For this you can pull information from the reading [Initial Operation of the Udall Natural Area Regional Stormwater Quality Best Management Practice](https://www.dropbox.com/s/ohlvudi1bago7q8/Udall_natural_area.pdf?dl=0), the Internet, and your personal experience at the site (20 pts).
+
+
+  
+  
