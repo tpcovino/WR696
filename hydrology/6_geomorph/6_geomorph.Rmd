@@ -128,7 +128,7 @@ Materials:
 
 5. Field tape
 
-6. Clinometer
+6. Clinometer and/or laser level
 
 7. Gravelometer and folding ruler
 
@@ -144,7 +144,7 @@ Materials:
 
 3.	Estimate the maximum stage as indicated by mud or debris line and/or nearby high water marks in trees, shrubs, etc.
 
-4.	Measure the channel bed and water surface slopes 10m above and below your cross section using the clinometer.
+4.	Measure the channel bed and water surface slopes longitudinally (up and down) the reach you are working on using the clinometer or laser level. Select a length that is long enough to get a representative average slope. 
 
 5.	Draw a plan view and cross-sectional field sketch of your local field site. Also be sure to take photos while you are out in the field.
 
