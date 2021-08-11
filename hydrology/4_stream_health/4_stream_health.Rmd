@@ -107,7 +107,7 @@ Also we will do this assessment twice. Once at Young's Gulch and once on a strea
 
 # Field Data Analysis and Synthesis Questions: Using your field-collected data (45 pts)
 
-Use the data you collected in the field work section to answer the following questions for both streams (Young's Gulch and Cameron Peak fire stream)
+Use the data you collected in the field work section to answer the following questions
 
 **1.	Macroinvertebrate Data**
 
@@ -129,21 +129,19 @@ a.	Select the rating that appears most commonly in each category
     
 b.	Calculate the overall stream health score and interpret the results: poor < 20, fair 20-60, good 60-80, and excellent > 80.
     
-**3. Comparing biotic and physical assessments (40 pts)**
+**3. Comparing biotic and physical assessments (35 pts)**
 
-a. Include a copy of your field sketches (5 pts)
+a. Include a copy of your field sketch (5 pts)
     
 b. Generate the table below with the following information. Interpretation refers to excellent, good, poor, etc health (5 pts)
 
 ![](images/table_1.jpg)
     
-c. How do your 2 stream health assessments, biotic and physical, compare to one another within each stream? What might account for any differences? (5 pts)
+c. How do your 2 stream health assessments, biotic and physical, compare to one another? What might account for any differences? (5 pts)
     
 d. What are potential sources of contamination or habitat degradation in this area? (5 pts)
     
 e. What do you see as a benefit of rapid/qualitative assessment? What negatives do you see in this type of approach? (10 pts)
     
 f. Describe two stream environments – one healthy and one unhealthy – using the macroinvertebrate and stream habitat worksheets as a guide. It would be helpful to frame the unhealthy stream system through the lens of a certain disturbance such as agriculture, deforestation, fire, etc. (10 pts)
-
-g. Compare your stream health data from Young's Gulch with the stream health from the Cameron Peak fire. We're there differences between the biotic index and qualitative assesements between the two streams? (5 pts)
     

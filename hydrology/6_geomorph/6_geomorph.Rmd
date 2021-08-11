@@ -146,6 +146,8 @@ Materials:
 
 4.	Measure the channel bed and water surface slopes longitudinally (up and down) the reach you are working on using the clinometer or laser level. Select a length that is long enough to get a representative average slope. 
 
+5. Measure channel sinuosity (stream length/valley length). You will need to select a sufficient length of stream to measure sinuosity. 
+
 5.	Draw a plan view and cross-sectional field sketch of your local field site. Also be sure to take photos while you are out in the field.
 
 ### 2.2: Manning’s Roughness Coefficient
@@ -227,7 +229,7 @@ a.	Calculate the entrenchment ratio as the width of the flood prone area divided
 
 b.	Calculate the width to depth ratio as the width of the channel at bankfull stage divided by the average depth of the channel at bankfull stage. 
 
-c.	Use aerial imagery to calculate stream sinuosity (i.e. the length of the stream reach divided by the straight line distance between the two end points). 
+c.	Calculate stream sinuosity (i.e. the length of the stream reach divided by the straight line distance between the two end points). 
 
 d.	Use gradient measurements to determine the slope. 
 
