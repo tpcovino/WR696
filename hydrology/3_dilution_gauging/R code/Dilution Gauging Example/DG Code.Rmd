@@ -1,0 +1,152 @@
+---
+title: "Dilution Gauging"
+author: "Karin Emanuelson"
+date: "11/18/2020"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(plotly)
+library(knitr)
+library(kableExtra)
+library(here)
+```
+
+### Read in field data and enter metadata
+```{r}
+# Read in data from datalogger
+cond <- read.csv("data/corrected conductivity.csv", skip = 3, header = T)[ ,1:6]
+
+names(cond) <- c("Timestamp", "time_s", "RN", "Cond_cor_mS", "Ct_raw_mS", "Temp_C")
+
+#clean
+cond<- cond %>% 
+  mutate(time_s= as.numeric(time_s)) %>% 
+  mutate(Timestamp = as.POSIXct(Timestamp,format="%H:%M:%S"))
+
+# Read in metadata
+## reach distance (same for all trials)
+dist <- 20
+## injection 1
+mass1<-223.8
+injTime1 <- as.POSIXct("15:11:35", format = "%H:%M:%S")
+## injection 2
+mass2<-418.4
+injTime2 <- as.POSIXct("15:21:40", format = "%H:%M:%S")
+## injection 3
+mass3<-312.6
+injTime3 <- as.POSIXct("15:41:45", format = "%H:%M:%S")
+```
+
+### Quick plot to look at data
+```{r}
+ggplotly(ggplot(data = cond) +
+  geom_point(aes(x = time_s, y = Cond_cor_mS)))
+```
+
+### Determine begin, end, and rise time for each slug injection.
+#### Use the plotly above to hover mouse and determine the begin time (earliest time to use for background correction), rise time (latest time to use for background correction jsut before the conductivity increases), and end time (time at which the conductivity is back to background concentrations).
+```{r}
+# variables for slug 1
+rise <- as.numeric(2105)
+begin <- as.numeric(1910)
+end <- as.numeric(2410)
+
+# variables for slug 2
+rise2 <- as.numeric(3115)
+begin2 <- as.numeric(2875)
+end2 <- as.numeric(3675)
+
+# variables for slug 3
+rise3 <- as.numeric(3785)
+begin3 <- as.numeric(3690)
+end3 <- as.numeric(4340)
+```
+
+### Separate each slug breakthrough curve (BTC) for analysis 
+```{r}
+#slugs
+slug1 <- filter(cond, time_s>begin& time_s<end) %>% 
+    mutate(time_since_injection = as.numeric(difftime(Timestamp, injTime1, units='secs'))) %>% # Create time since injection column
+    filter(time_since_injection >=0) # filter to only include time since injection
+slug2 <- filter(cond, time_s>begin2& time_s<end2) %>% 
+    mutate(time_since_injection = as.numeric(difftime(Timestamp, injTime2, units='secs'))) %>% # Create time since injection column
+    filter(time_since_injection >=0) # filter to only include time since injection
+slug3 <- filter(cond, time_s>begin3& time_s<end3) %>% 
+    mutate(time_since_injection = as.numeric(difftime(Timestamp, injTime3, units='secs'))) %>% # Create time since injection column
+    filter(time_since_injection >=0) # filter to only include time since injection
+```
+
+### Complete dilution gauging analysis for each slug
+Determine baseline for slug 1, 
+```{r}
+# baseline for slug 1
+start.inj.idx<- which(slug1$time_s==rise)
+baseline <- median(slug1$Cond_cor_mS[0:(start.inj.idx)])
+
+# set dt (the timestep of data collection)
+dt <- slug1$time_s[2] - slug1$time_s[1]
+
+# background correct
+slug1 <- slug1 %>%
+  mutate(bgcor_con = Cond_cor_mS - baseline) %>% # background correct Conductivity
+  mutate(bgcor_con =ifelse(bgcor_con < 0, 0, bgcor_con)) %>% # ensure background correction is not less than zero
+  mutate(NaCl = bgcor_con/2) %>% # convert from conductivity (mS/cm) to concentration NaCl (g/L)
+  mutate(IntC_s1 = NaCl+lag(NaCl,default=0))%>% # first step of integration 
+  mutate(IntC = cumsum(IntC_s1*.5*dt))%>% # complete integration
+  mutate(recovery = IntC/max(IntC)) # Calculate recovery
+
+# Determine flow
+Q1<-mass1/max(slug1$IntC)
+
+# Determine modal, 5%, 50% and 95% velocities
+## Modal velocity
+peak1.idx<- which.max(abs(slug1$bgcor_con)) # find the index of the point that has the max concentration
+peak1_time <- as.numeric(difftime(slug1$Timestamp[peak1.idx], injTime1, units='secs')) # Calculate the time from injection to that max point in seconds
+modalvel1 <- dist/peak1_time # determine velocity by dist/time
+
+## 5 percent recovery velocity
+fiveRecovery.idx1<- which.min(abs(slug1$recovery-.05)) # find the index of the point that has recovery equal to .05 (or 5%)
+fiveper_time1 <- as.numeric(difftime(slug1$Timestamp[fiveRecovery.idx1], injTime1, units='secs')) # Calculate the time from injection to that 5% recovery point in seconds
+Fivevel1 <- dist/fiveper_time1 # determine velocity by dist/time
+
+## 50% recovery velocity
+halfRecovery.idx1<- which.min(abs(slug1$recovery-.50)) # find the index of the point that has recovery equal to .5 (or 50%)
+fiftyper_time1 <- as.numeric(difftime(slug1$Timestamp[halfRecovery.idx1], injTime1, units='secs')) # Calculate the time from injection to that 50% recovery point in seconds
+halfvel1 <- dist/fiftyper_time1 # determine velocity by dist/time
+
+## ninety-five revovery velocity
+ninetyfiveRecovery.idx1 <- which.min(abs(slug1$recovery-.95)) # find the index of the point that has recovery equal to .95 (or 95%)
+ninetyfiveper_time1 <- as.numeric(difftime(slug1$Timestamp[ninetyfiveRecovery.idx1], injTime1, units='secs')) #Calculate the time from injection to that 95% recovery point in seconds
+ninetyfivevel1 <- dist/ninetyfiveper_time1 # determine velocity by dist/time
+
+
+# Create table of Q and velocities
+slug1_table<- data.frame(Q1, modalvel1, Fivevel1, halfvel1, ninetyfivevel1)
+names(slug1_table) <- c("Q (L/s)", "Modal Velocity (m/s)", "5% Velocity (m/s)", "50% Velocity (m/s)", "95% Velocity (m/s)")
+print(slug1_table)
+```
+
+### Graph BTC and Recovery
+```{r}
+
+# slug1 plot
+ggplot(data = slug1)+
+  geom_point(aes( x = time_since_injection, y = NaCl))+
+  labs(x = "Time since Injection (sec)", y = "Background Corrected NaCl (g/L))")+
+  theme_bw()
+
+# normalized slug1 plot
+ggplot(data = slug1)+
+  geom_point(aes( x = time_since_injection, y = recovery))+
+  labs(x = "Time since Injection (sec)", y = "% of NaCl")+
+  theme_bw()
+
+```
+
