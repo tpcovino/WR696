@@ -8,6 +8,9 @@ output:
     toc_float: true
     toc_depth: 3
 ---
+# R intro
+
+ - [Introductory R markdown](R_intro_696.html)
 
 # Hydrology labs and assignments
 
