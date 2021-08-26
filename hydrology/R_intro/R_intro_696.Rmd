@@ -2,7 +2,9 @@
 title: "R_Intro"
 author: "tim covino"
 date: "8/26/2021"
-output: html_document
+output: 
+  html_document:
+    toc: TRUE
 ---
 
 ```{r setup}
@@ -47,7 +49,7 @@ df <- df %>%
 df <- df %>% 
   select(-tmax_f, -tmin_f)
 
-#The line below is very helpful for doing averages or min or max by day or year or month. We will use this in the climate data analysis. This is part of the lubridate package. As a side note, often times errors occur because a package didn't load properly. Computers are imperfect. So a first step in trouble shooting when you get an error is to load the package again. An error that says "could not find the function X" usually means the package isn't actually loaded. 
+#The line below is very helpful for doing averages or min or max by day or year or month. We will use this in the climate data analysis. This is part of the lubridate package, but also uses dplyr (pipe and mutate). As a side note, often times errors occur because a package didn't load properly. Computers are imperfect. So a first step in trouble shooting when you get an error is to load the package again. An error that says "could not find the function X" usually means the package isn't actually loaded. 
 df <- df %>% 
   mutate(year = year(date), day = day(date), month = month(date))
 
