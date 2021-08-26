@@ -200,7 +200,7 @@ df &lt;- df %&gt;%
 df_jan &lt;- df %&gt;% 
   filter(month == 1)
 
-#We can also filter by other values. For example we can filter by temp. Here we are saying to only keep the data where the max temp is less than 0. You can play around with changing this and see what happens. Filter functions are really useful. For example in your assignment you will need to find the max temp for each data from a Campbell data frame that has data every 15 minutes. Consider how to do this given the code for filtering shown above and below. 
+#We can also filter by other values. For example we can filter by temp. Here we are saying to only keep the data where the max temp is less than 0. You can play around with changing this and see what happens. Filter functions are really useful. For example in your assignment you will need to find the max temp for each day from the Campbell data logger (15 minute data). Consider how to do this given the code for filtering shown above and below. 
 df_neg_temp &lt;- df %&gt;% 
   filter(tmax &lt; 0)</code></pre>
 <pre class="r"><code>#Last we can plot some data. ggplot is part of the tidyverse. In this example we plot the max temp and color each point by date. In the final line we change the color ramp from the default (shades of blue) to something with more contrast. You can take that line away or put it back in to see what happens. You can also change the colors to whatever you like. Here is a link to the colors in ggplot http://sape.inf.usi.ch/quick-reference/ggplot2/colour
