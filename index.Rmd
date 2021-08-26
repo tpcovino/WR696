@@ -10,7 +10,7 @@ output:
 ---
 # R intro
 
- - [Introductory R markdown](R_intro_696.html)
+ - [Introductory R markdown](hydrology/R_intro/src/R_intro_696.html)
 
 # Hydrology labs and assignments
 
