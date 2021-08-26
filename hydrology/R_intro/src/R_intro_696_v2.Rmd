@@ -1,0 +1,50 @@
+---
+title: "R_intro_2"
+author: "tim covino"
+date: "8/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library("tidyverse")
+library("lubridate")
+```
+
+
+```{r}
+df <- read_csv("data/temp_df.csv")
+
+head(df)
+tail(df)
+str(df)
+
+df$date <- as.Date(df$date, format = "%m/%d/%Y")
+```
+
+```{r}
+df <- df %>% 
+  mutate(t_range = tmax - tmin, tmax_f = (tmax*(9/5))+32)
+
+rm(new_df)
+```
+
+
+```{r}
+ggplot(df, aes(x = date, y = tmax, color = date)) +
+  geom_point() +
+  ylab("Maximum temperature (C)") +
+  xlab("Date") +
+  theme_linedraw(base_size = 16) +
+  scale_color_gradient(low = 'cyan', high = 'deeppink', trans = 'date')
+
+```
+
+
+
+
+
