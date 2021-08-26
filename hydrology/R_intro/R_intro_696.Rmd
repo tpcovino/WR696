@@ -39,7 +39,7 @@ df$date <- as.Date(df$date, format = "%m/%d/%Y")
 ```{r}
 #Here we can do some data wrangling. The following uses the dplyr component of tidyverse. Here is a link to information about tidyverse https://www.tidyverse.org/
 
-#In this line we use what is referred to as a pipe (%>%). This simply passes arguments to the next line. Using mutate we can create new columns, do calculations, change and existing column, etc.  
+#In this line we use what is referred to as a pipe (%>%). This simply passes arguments to the next line. Using mutate we can create new columns, do calculations, change an existing column, etc.  
 df <- df %>% 
   mutate(t_range = tmax - tmin, tmax_f = (tmax*(9/5))+32, tmin_f = (tmin*(9/5))+32)
 

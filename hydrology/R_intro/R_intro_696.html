@@ -184,7 +184,7 @@ df &lt;- read_csv(here(&quot;data/temp_df.csv&quot;))
 df$date &lt;- as.Date(df$date, format = &quot;%m/%d/%Y&quot;)</code></pre>
 <pre class="r"><code>#Here we can do some data wrangling. The following uses the dplyr component of tidyverse. Here is a link to information about tidyverse https://www.tidyverse.org/
 
-#In this line we use what is referred to as a pipe (%&gt;%). This simply passes arguments to the next line. Using mutate we can create new columns, do calculations, change and existing column, etc.  
+#In this line we use what is referred to as a pipe (%&gt;%). This simply passes arguments to the next line. Using mutate we can create new columns, do calculations, change an existing column, etc.  
 df &lt;- df %&gt;% 
   mutate(t_range = tmax - tmin, tmax_f = (tmax*(9/5))+32, tmin_f = (tmin*(9/5))+32)
 
