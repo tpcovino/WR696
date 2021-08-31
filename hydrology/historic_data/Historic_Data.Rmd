@@ -1,0 +1,131 @@
+---
+title: "historic data"
+author: "tim covino"
+date: "8/31/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+
+```
+
+```{r}
+library(tidyverse)
+library(lubridate)
+
+#new this week
+library(rnoaa)
+library(trend)
+```
+
+# We will use the "rnoaa" package to download data directly from the internet. Remember that you can type "?rnoaa" to get a help screen about the package. 
+```{r}
+climate_data <- ghcnd_search(
+  stationid = "USC00053005", 
+  date_min = "1988-01-01",
+  date_max = "2020-12-31", 
+  var = c("SNOW", "TMAX", "TMIN", "PRCP", "TOBS", "SNWD")
+)
+
+```
+
+# In this section we write a function to clean up the data. Remember that "select(-something)" will get rid of that column. 
+```{r}
+variable_reducer <- function(df){
+  min_data = dplyr::select(df, -id, -mflag, -qflag, -sflag)
+}
+
+relevant_data <- climate_data %>%
+  map(., variable_reducer)
+
+clim_dat <- reduce(relevant_data, full_join, by = c("date")) %>% 
+  arrange(date) %>% 
+  mutate_if(is.numeric, vars(./10))
+
+```
+
+
+# Let's now make a plot. 
+```{r}
+ggplot(clim_dat, aes(x = date, y = tmax, color = date)) +
+  geom_point() +
+  ylab("Maximum temperature (C)") +
+  xlab("Date") +
+  theme_linedraw(base_size = 16) +
+  scale_color_gradient(low = 'cyan', high = 'deeppink', trans = "date")
+
+```
+
+# Alternative to the one above we can use an "expression" in the ylab line if we want a superscript.
+```{r}
+ggplot(clim_dat, aes(x = date, y = tmax, color = date)) +
+  geom_point() +
+  ylab(expression(Maximum~temperature~(""^o*C))) +
+  xlab("Date") +
+  theme_linedraw(base_size = 16) +
+  scale_color_gradient(low = 'cyan', high = 'deeppink', trans = "date")
+```
+
+
+# We can also add a trendline to the plot with stat_smooth. Check out "?stat_smooth" to get a help file. 
+```{r}
+ggplot(clim_dat, aes(x = date, y = tmin, color = date)) +
+  geom_point() +
+  xlab("Year") +
+  ylab("Minimum temperature (C)") +
+  theme_linedraw(base_size = 16) +
+  scale_color_gradient(low = "cyan", high = "deeppink", trans = "date") +
+  stat_smooth(method = "lm", color = "red")
+```
+
+
+# Now let's use our mutate function from dply (in the tidyverse) and lubridate to make columns of month, year and day. 
+```{r}
+myd_dat <- clim_dat %>%
+  mutate(month = month(date),
+         year = year(date),
+         day = day(date))
+```
+
+
+# Making those columns allows us to filter by day, month, year. filter(month == 9) means only keep the months equal to 9. Filter (day %in% 16:20) means keep all days equal to 16-20. Summarize can be used to get some summary statistics on the data. When getting summary stats it is generally useful to include "na.rm = TRUE" this means remove any na values from the calculations.  
+```{r}
+m_avg <- myd_dat %>% 
+  filter(month == 9) %>% 
+  group_by(month, year) %>% 
+  summarize(m_tmin = mean(tmin))
+
+
+days_tmin <- myd_dat %>% 
+  filter(day %in% 16:20) %>% 
+  group_by(month, day) %>% 
+  summarize(max_tmin = max(tmin, na.rm = TRUE),
+            min_tmin = min(tmin, na.rm = TRUE),
+            avg_tmin = mean(tmin, na.rm = TRUE))
+```
+
+
+#Last let's run a non-parametric Mann-Kendall trend test on the data. In this test we want two things: 1. is the trend significant? (i.e., the p-value) and 2. what is the slope? (i.e., the Sen's slope)
+```{r}
+
+t_min_test <- sens.slope(m_avg$m_tmin)
+
+
+ggplot(m_avg, aes(x = year, y = m_tmin, color = year)) +
+  geom_point() +
+  geom_line() +
+  xlab("") +
+  ylab(expression(Average~minimum~temperature~(""^o*C))) +
+  theme_linedraw(base_size = 16) +
+  stat_smooth (method = lm) +
+  stat_smooth (method = lm) +
+  scale_color_gradient(low = "blue", high = "red") +
+  annotate("text", x = 1995, y = 12, label = paste("p = ", round(t_min_test$p.value, digits = 3), "\n",
+                                                      "Sen's slope = ", round(t_min_test$estimates, digits = 2)))
+
+```
+
+
+

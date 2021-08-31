@@ -31,7 +31,7 @@ library(here) #we didn't load this package in class but it is very helpful. It t
 
 ```{r}
 #Here we read in the data.
-df <- read_csv(here("data/temp_df.csv"))
+df <- read_csv(here("hydrology/R_intro/data/temp_df.csv"))
 
 #If you type in str(df) you will see that the date column is not recognized as a date. To fix that we use lubridate to do the following: 
 df$date <- as.Date(df$date, format = "%m/%d/%Y")
@@ -69,7 +69,7 @@ df_neg_temp <- df %>%
 
 ggplot(df, aes(x = date, y = tmax, color = date)) +
   geom_point() +
-  ylab("Maximum temperature (C)") +
+  ylab(expression(Maximum~temperature~(""^o*C))) +
   xlab("Date") +
   theme_linedraw(base_size = 16) +
   scale_color_gradient(low = 'cyan', high = 'deeppink', trans = "date")

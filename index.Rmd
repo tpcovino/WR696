@@ -8,6 +8,10 @@ output:
     toc_float: true
     toc_depth: 3
 ---
+# Historic data in R
+
+ - [Climate data annalysis in R](hydrology/historic_data/historic_data.html)
+
 # R intro
 
  - [Introductory R markdown](hydrology/R_intro/R_intro_696.html)
