@@ -251,7 +251,9 @@ days_tmin &lt;- myd_dat %&gt;%
   summarize(max_tmin = max(tmin, na.rm = TRUE),
             min_tmin = min(tmin, na.rm = TRUE),
             avg_tmin = mean(tmin, na.rm = TRUE))</code></pre>
-<p>#Last let’s run a non-parametric Mann-Kendall trend test on the data. In this test we want two things: 1. is the trend significant? (i.e., the p-value) and 2. what is the slope? (i.e., the Sen’s slope)</p>
+</div>
+<div id="last-lets-run-a-non-parametric-mann-kendall-trend-test-on-the-data.-in-this-test-we-want-two-things-1.-is-the-trend-significant-i.e.-the-p-value-and-2.-what-is-the-slope-i.e.-the-sens-slope" class="section level1">
+<h1>Last let’s run a non-parametric Mann-Kendall trend test on the data. In this test we want two things: 1. is the trend significant? (i.e., the p-value) and 2. what is the slope? (i.e., the Sen’s slope)</h1>
 <pre class="r"><code>t_min_test &lt;- sens.slope(m_avg$m_tmin)
 
 
