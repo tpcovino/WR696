@@ -81,7 +81,7 @@ ggplot(clim_dat, aes(x = date, y = tmin, color = date)) +
 ```
 
 
-# Now let's use our mutate function from dply (in the tidyverse) and lubridate to make columns of month, year and day. 
+# Now let's use our mutate function from dplyr (in the tidyverse) and lubridate to make columns of month, year and day. 
 ```{r}
 myd_dat <- clim_dat %>%
   mutate(month = month(date),
