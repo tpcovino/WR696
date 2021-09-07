@@ -8,6 +8,9 @@ output:
     toc_float: true
     toc_depth: 3
 ---
+# Some tidyverse
+ - [A little tidyverse code for cleaning data](hydrology/7_rating_curve/tidyverse.html)
+
 # Historic data in R
 
  - [Climate data annalysis in R](hydrology/historic_data/historic_data.html)
