@@ -30,10 +30,7 @@ output:
 ### Velocity Area 
   
   - [Velocity Area lecture and text](hydrology/2_velocity_area_module/2_velocity_area_module.html)
-  
-  - Rubric [here](hydrology/2_velocity_area_module/2_velocity_area_module_files/velocity_area_rubric.pdf)
-  
-  - Analysis assessment [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0)
+
   
 ### Udall Natural Area
   - [Udall assignment](hydrology/Udall_Natural_Area/Udall.html)
