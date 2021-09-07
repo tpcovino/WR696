@@ -56,7 +56,7 @@ str(meas)
 a1 <- 0 
 
 #Next we run the model. This line says run a nls model where Discharge = C*(gage height - a1)^n. In R statistical models the ~ is similar to equals. It basically means predict discharge using this function. 
-model<- nls(discharge~C*(gage_height-a1)^n, start = list(C = 1, n = 1.2), data = meas, trace=T)
+model <- nls(discharge~C*(gage_height-a1)^n, start = list(C = 1, n = 1.2), data = meas, trace=T)
 
 #Now that we have run the model we can get a summary of the ouput. And we can also pull out the parameters that we are intersted in (C and n).
 summary(model)

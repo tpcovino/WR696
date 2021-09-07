@@ -1,0 +1,87 @@
+---
+title: "Tidyverse"
+author: "tim covino"
+date: "9/7/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, results = FALSE)
+
+```
+
+
+```{r}
+#New packages
+library(dataRetrieval)
+library(broom)
+
+#Packages you should already have installed 
+library(tidyverse)
+library(lubridate)
+
+```
+
+## Using the dataRetrieval package we can download data from the internet. Next we can clean the data. Here we are breaking the pipes into separate steps just to see what each step is doing, but these can all be put together into one. 
+```{r}
+meas_hyd <- readNWISmeas(siteNumbers = '06752280')
+
+#The select function will keep only the columns you specifiy.
+meas <- meas_hyd %>% 
+  select(measurement_dt, gage_height_va, discharge_va, measured_rating_diff)
+
+#We can then make a year column with mutate. 
+meas_yr <- meas %>% 
+  mutate(year = year(measurement_dt))
+
+#It is often helpful to make the column header names something more reasonable. 
+meas_labs <- meas_yr %>% 
+  rename(date = 1, stage = 2, q = 3, rating = 4, year = 5)
+
+#Then we can filter for only data from 2008-2020 and with a good rating. 
+meas_clean <- meas_labs %>% 
+  filter(year %in% 2008:2020, rating == "Good")
+
+```
+
+## Next we make a plot. This uses a pipe to make the plot. It can be handy because you can make calculations and create new columns before the ggplot call. Doing so won't add things (e.g., columns) or in any way change the data frame. So if you want to keep the data frame simple you can use this approach. 
+```{r}
+meas_clean %>% 
+  ggplot(aes(x = stage, y = q, color = year)) +
+  geom_point() +
+  theme_linedraw(base_size = 16) +
+  ylab("Discharge (cfs)")+
+  xlab("Stage(ft)")
+
+```
+
+# For example say we just want to stick with the meas data frame. We could do the following. 
+```{r}
+meas %>% 
+  rename(date = 1, stage = 2, q = 3, rating = 4) %>% 
+  mutate(year = year(date)) %>% 
+  filter(year %in% 2008:2020, rating == "Good") %>% 
+  ggplot(aes(x = stage, y = q, color = date)) +
+  geom_point() +
+  theme_linedraw(base_size = 16) +
+  ylab("Discharge (cfs)") +
+  xlab("Stage (ft)")
+```
+
+## Below is the code that the group was using. That isn't inherently wrong, but the group_by and summarize aren't needed. 
+
+```{r}
+# meas_Good <- meas_hyd %>% 
+#   filter(year %in% 2008:2020)%>%
+#   filter(measured_rating_diff == "Good") %>% 
+#   group_by(year, day, month) %>% 
+#   summarize(gage_height_va, discharge_va)
+```
+
+
+
+
+
+
+
