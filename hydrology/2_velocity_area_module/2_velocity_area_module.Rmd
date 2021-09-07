@@ -115,7 +115,7 @@ Materials:
     d.	See Figure 3 for an example of a vertical velocity profile:
 
 # Assessment (20 pts) 
-Calculations using pre-collected data provided [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0 ){target="_blank"} 
+Calculations using pre-collected data provided [here](https://www.dropbox.com/s/q7iqgav5majd6f1/velo_area_assessment_data_v2.xlsx?dl=0){target="_blank"} 
 
 ### 3.1: Velocity Area Method (Continued)
 
