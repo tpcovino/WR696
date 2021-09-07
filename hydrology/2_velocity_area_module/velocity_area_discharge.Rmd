@@ -1,0 +1,62 @@
+---
+title: "Velocity area discharge"
+author: "tim covino"
+date: "9/7/2021"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, results = FALSE)
+
+```
+
+```{r}
+library(tidyverse)
+
+```
+
+```{r}
+cross <- read_csv("hydrology/2_velocity_area_module/data/velo_area_data_R.csv")
+```
+
+
+```{r}
+
+cross <- cross %>% 
+  mutate(depth_m = depth_cm/100)
+
+
+cross <- cross %>% 
+  mutate(area_m2 = (lead(cross$width_m) - lag(cross$width_m)) / 2 *
+  cross$depth_m, q = area_m2 * velo_m_s)
+
+tot_q <- sum(cross$q, na.rm = TRUE)
+
+```
+
+
+```{r}
+cross_percent <- cross %>% 
+  mutate(q_per = (q/tot_q)*100)
+
+sections_exceeding <- cross_percent %>% 
+  filter(q_per> 5)
+
+mean_velo <- cross %>% 
+  summarize(mean_velo = mean(velo_m_s))
+
+total_area <- cross %>% 
+  summarize(total_area = sum(area_m2, na.rm = TRUE))
+```
+
+
+
+
+
+
+
+
+
+
