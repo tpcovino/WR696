@@ -42,7 +42,7 @@ cross_percent <- cross %>%
   mutate(q_per = (q/tot_q)*100)
 
 sections_exceeding <- cross_percent %>% 
-  filter(q_per> 5)
+  filter(q_per > 5)
 
 mean_velo <- cross %>% 
   summarize(mean_velo = mean(velo_m_s))
