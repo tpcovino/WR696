@@ -8,7 +8,7 @@ output:
     toc_float: true
     toc_depth: 3
 ---
-# Velocity-area discharge
+# Velocity-area discharge code
  - [Code for analyzing velocity-area data](hydrology/2_velocity_area_module/velocity_area_discharge.html)
 
 # Some tidyverse
