@@ -8,6 +8,12 @@ output:
     toc_float: true
     toc_depth: 3
 ---
+# Online
+ - [Some thoughts on online learning](src/Online_learning.html)
+ 
+ # Online
+ - [Some thoughts on online learning](src/Online_learning.html)
+
 # Some tidyverse
  - [A little tidyverse code for cleaning data](hydrology/7_rating_curve/tidyverse.html)
 

@@ -14,13 +14,12 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, results = F
 
 ```{r}
 library(tidyverse)
-
+library(plotly)
 ```
 
 ```{r}
-cross <- read_csv("hydrology/2_velocity_area_module/data/velo_area_data_R.csv")
+cross <- read_csv("data/velo_area_data_R.csv")
 ```
-
 
 ```{r}
 
@@ -36,7 +35,6 @@ tot_q <- sum(cross$q, na.rm = TRUE)
 
 ```
 
-
 ```{r}
 cross_percent <- cross %>% 
   mutate(q_per = (q/tot_q)*100)
@@ -51,12 +49,19 @@ total_area <- cross %>%
   summarize(total_area = sum(area_m2, na.rm = TRUE))
 ```
 
+```{r}
+fig <- cross %>% 
+  mutate(neg_depth = depth_m * -1) %>% 
+  ggplot(aes(x = width_m, y = neg_depth)) +
+  geom_point() +
+  geom_line() +
+  ylab("Depth (m)") +
+  xlab("Width (m)") +
+  theme_linedraw(base_size = 16) +
+  ylim(-15, 0)
 
+ggplotly(fig)
 
-
-
-
-
-
+```
 
 
