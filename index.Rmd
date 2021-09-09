@@ -8,11 +8,8 @@ output:
     toc_float: true
     toc_depth: 3
 ---
-# Online
- - [Some thoughts on online learning](src/Online_learning.html)
- 
- # Online
- - [Some thoughts on online learning](src/Online_learning.html)
+# Velocity-area discharge
+ - [Code for analyzing velocity-area data](hydrology/2_velocity_area_module/velocity_area_discharge.html)
 
 # Some tidyverse
  - [A little tidyverse code for cleaning data](hydrology/7_rating_curve/tidyverse.html)
