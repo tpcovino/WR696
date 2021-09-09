@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, results = F
 library(tidyverse)
 library(plotly)
 ```
-
+### This part you will need to change. Remember that it is best practice to work from projects. If you have a WR696 project with sub-folders you would open the project then navige to the velo_area (for example) folder and open your R markdown. The reason this is nice is that project will open with WR696 as the "working directory". Problems loading data are generally due to thinking you are in a different wd than you actually are. Projects essentially eliminate this issue. 
 ```{r}
 cross <- read_csv("data/velo_area_data_R.csv")
 ```

@@ -173,6 +173,8 @@ pre code {
 
 <pre class="r"><code>library(tidyverse)
 library(plotly)</code></pre>
+<div id="this-part-you-will-need-to-change.-remember-that-it-is-best-practice-to-work-from-projects.-if-you-have-a-wr696-project-with-sub-folders-you-would-open-the-project-then-navige-to-the-velo_area-for-example-folder-and-open-your-r-markdown.-the-reason-this-is-nice-is-that-project-will-open-with-wr696-as-the-working-directory.-problems-loading-data-are-generally-due-to-thinking-you-are-in-a-different-wd-than-you-actually-are.-projects-essentially-eliminate-this-issue." class="section level3">
+<h3>This part you will need to change. Remember that it is best practice to work from projects. If you have a WR696 project with sub-folders you would open the project then navige to the velo_area (for example) folder and open your R markdown. The reason this is nice is that project will open with WR696 as the “working directory”. Problems loading data are generally due to thinking you are in a different wd than you actually are. Projects essentially eliminate this issue.</h3>
 <pre class="r"><code>cross &lt;- read_csv(&quot;data/velo_area_data_R.csv&quot;)</code></pre>
 <pre class="r"><code>cross &lt;- cross %&gt;% 
   mutate(depth_m = depth_cm/100)
@@ -205,6 +207,7 @@ total_area &lt;- cross %&gt;%
   ylim(-15, 0)
 
 ggplotly(fig)</code></pre>
+</div>
 
 
 
