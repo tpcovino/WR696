@@ -8,6 +8,9 @@ output:
     toc_float: true
     toc_depth: 3
 ---
+# Rating curve code
+ - [Code for analyzing rating curve data in R](hydrology/7_rating_curve/Poudre_rating_curve.html)
+
 # Velocity-area discharge code
  - [Code for analyzing velocity-area data](hydrology/2_velocity_area_module/velocity_area_discharge.html)
 

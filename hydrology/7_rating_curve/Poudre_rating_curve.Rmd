@@ -1,6 +1,6 @@
 ---
-title: "poudre rating curve"
-author: "tim covino"
+title: "Poudre rating curve"
+author: "Tim Covino"
 date: "9/2/2021"
 output: html_document
 ---
@@ -23,7 +23,7 @@ library(lubridate)
 ```
 
 
-## Here we can use the dataRetrieval package to get data from the internet. The whatNWISdata tells us what data are avalailable. The readNWISmeas provides the field measurement data. Info on the package can be found here:  
+### Here we can use the dataRetrieval package to get data from the internet. The whatNWISdata tells us what data are avalailable. The readNWISmeas provides the field measurement data. Info on the package can be found here:  
 
 + [Data Retrieval](https://cran.r-project.org/web/packages/dataRetrieval/vignettes/dataRetrieval.html)
  
@@ -50,7 +50,7 @@ str(meas)
 ```
 
 
-## Now let's fit a non-linear model to the data. Rembmer that stage-discharge relations (the rating curve) are typically non-linear. We will use nls, which you can read up on with "?nls". In this model a1, C, and n are parameters and we have to give them initial values. After that R will find the best fit for each parameter. 
+### Now let's fit a non-linear model to the data. Rembmer that stage-discharge relations (the rating curve) are typically non-linear. We will use nls, which you can read up on with "?nls". In this model a1, C, and n are parameters and we have to give them initial values. After that R will find the best fit for each parameter. The equation will be Q = C(Stage - a1)^n where C is a fitting parameter, a1 is the depth at which flow is 0 (so if flow was zero at 1 ft depth a1 = 1), and n is an exponent that gives the function its concave up shape.
 ```{r}
 #Here we give a1 an initial value
 a1 <- 0 
@@ -79,7 +79,7 @@ augment(model)
 
 ```
 
-## Last have a look at all of the data. What do you see? Do you think the rating curve is consistent through time? Why or why not?
+### Last have a look at all of the data. What do you see? Do you think the rating curve is consistent through time? Why or why not?
 
 ```{r}
 all_meas <- readNWISmeas(siteNumbers = '06752280')
@@ -89,7 +89,7 @@ all_meas <- all_meas %>%
   rename(Date = 1, gage_height = 2, discharge = 3, rating = 4) 
 ```
 
-## Let's plot the data and have a look. 
+### Let's plot the data and have a look. 
 ```{r}
 #Here we have to transform the date format in order to change the color ramp from the default (blue) to something with more contrast. 
 all_meas$Date <- as.Date(all_meas$Date, format = "%m-%d-%Y-h-m-s")
